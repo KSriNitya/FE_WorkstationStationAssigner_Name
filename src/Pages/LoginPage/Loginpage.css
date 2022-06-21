@@ -1,0 +1,93 @@
+.g-signin{
+  width: 200px;
+  /* font-weight: bold;*/
+  font-size: 25px; 
+  position: absolute;
+  left:75%;
+top:40%;
+transform:translate(-50%,50%);
+box-shadow: 0 0 10px rgba(0.45, 0.45, 0.45, 0.45);
+font-size: 20px;
+
+}
+
+.loginImage {
+  /* justify-content: center;
+display: flex;
+align-items: center;
+position: relative; */
+margin-top: 4%;
+margin-left: 12%;
+
+}
+
+.loginrow{
+position: absolute;
+top:61%
+}
+
+.box_header{
+text-align: center;
+margin-top: 2%;
+font-size: 25px;
+color: #ffffff;
+font-family: 'Gothic A1', sans-serif;
+
+}
+.box_header_new{
+  text-align: center;
+  margin-top: 4%;
+  font-weight: 600;
+  font-size: 25px;
+  color: #0892d0;
+  font-family: 'Gothic A1', sans-serif;
+  
+  }
+ 
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: white;
+  padding-bottom: 0.5%;
+  font-family: 'Gothic A1', sans-serif;
+
+}
+
+.message{
+  font-family: 'Gothic A1', sans-serif;
+ 
+color:#0892d0;
+font-size: 35px;
+margin-top: auto;
+margin-bottom: auto;
+}
+.homepage_text1
+{
+  /* text-align: center; */
+  margin-top: 13%;
+  margin-left: 10%;
+
+  font-weight: 600;
+  font-size: 70px;
+  /* color: #0892d0; */
+  opacity: 0.6 ;
+
+  font-family: 'Gothic A1', sans-serif;
+
+} 
+.homepage_text2
+{
+  text-align: center;
+  margin-top: -5%;
+  /* margin-bottom: 10%; */
+  margin-left: 70%;
+  font-weight: 600;
+  font-size: 70px;
+  /* color: #0892d0; */
+  font-family: 'Gothic A1', sans-serif;
+  opacity: 0.6;
+
+} 

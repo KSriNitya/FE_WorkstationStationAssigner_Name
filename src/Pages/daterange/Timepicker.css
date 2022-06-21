@@ -1,0 +1,43 @@
+.trcontainer{
+    display: flex;
+  
+   flex-direction: row;
+   
+   position:absolute;
+   left:65%;
+   top:20%;
+   transform:translate(-50%,-25%);
+   
+  
+    
+}
+
+.time_tag{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+    
+    font-size: 25px;
+    color: #0892d0;
+    margin-top: 8px;
+}
+
+.space{
+    margin-right: 15px;
+    /* margin-top: 4px; */
+  }
+
+  .react-time-input-picker {
+    font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+    
+  
+    margin-right: 25px;
+      /* width: 240px; */
+    /* height: 45px; */
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    border-color: #0892d0;
+    /* border: 1px solid; */
+  }
+

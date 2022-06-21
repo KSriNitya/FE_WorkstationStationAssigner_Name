@@ -1,0 +1,149 @@
+.drcontainer{
+    display: flex;
+    font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+  
+   flex-direction: row;
+   
+   position:absolute;
+   left:50%;
+   top:20%;
+   transform:translate(-50%,-25%);
+   
+  
+    
+}
+
+.drcontainer2{
+  display: flex;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+ flex-direction: row;
+ 
+ position:absolute;
+ left:30%;
+ top:20%;
+ transform:translate(-50%,-25%);
+ 
+
+  
+}
+.space{
+  margin-right: 5px;
+  margin-top: 4px;
+}
+/* 
+.label_mesg{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+    font-size: 25px;
+    color: #0892d0;
+   
+    
+} */
+.message1{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+    font-size: 25px;
+    color: #0892d0;
+    
+
+}
+.message2{
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+    font-size: 25px;
+    color: #0892d0;
+    margin-left: 60%;
+
+}
+
+.dr1{
+  
+  margin-right: 25px;
+    width: 180px;
+  height: 45px;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  border-color: #0892d0;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+  
+}
+
+.dr2{
+  
+    width: 180px;
+  height: 45px;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  border-color: #0892d0;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+    
+}
+.From_To{
+  display: flex;
+  justify-content: space-between;
+}
+
+.from_date{
+  width: 180px;
+  height: 45px;
+  font-size: 22px;
+  color: black;
+
+  border: 1px solid;
+  border-radius: 5px;
+
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+    
+  text-align: center;
+
+
+
+}
+.from_date1{
+
+  width: 180px;
+  height: 45px;
+  font-size: 22px;
+  color: black;
+
+  border: 1px solid;
+  border-radius: 5px;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+    
+  text-align: center;  
+  /* margin-left: 10%; */
+}
+
+.to_date{
+
+  width: 180px;
+  height: 45px;
+  font-size: 22px;
+  color: black;
+
+  border: 1px solid;
+  border-radius: 5px;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+    
+  text-align: center;  
+  margin-left: 10%;
+}
+.from_text{
+  margin-top: 1.5%;
+  margin-right:4% ;
+}
+
+.to_text{
+  margin-top: 1.5%;
+  margin-left: 5%;
+
+}

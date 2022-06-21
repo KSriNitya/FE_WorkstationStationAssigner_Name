@@ -1,0 +1,27 @@
+.dp{
+  
+  width: 180px;
+  height: 45px;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+
+  border: 1px solid;
+  border-radius: 5px;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%,-25%);
+
+}
+
+.date_container{
+    
+    width: auto;
+    display: flex;
+  flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}

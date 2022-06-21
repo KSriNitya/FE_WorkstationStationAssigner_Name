@@ -1,0 +1,106 @@
+.drcontainer{
+    display: flex;
+  
+   flex-direction: row;
+   
+   position:absolute;
+   left:50%;
+   top:15%;
+   transform:translate(-50%,-25%);
+   
+  
+    
+}
+
+.drcontainer2{
+  display: flex;
+
+ flex-direction: row;
+ 
+ position:absolute;
+ left:30%;
+ top:20%;
+ transform:translate(-50%,-25%);
+ 
+
+  
+}
+.space{
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.label_mesg{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #0892d0;
+    
+}
+
+.dr1{
+  
+  margin-right:25px;
+    width: 180px;
+  height: 45px;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  border-color: #0892d0;
+  
+}
+
+.dr2{
+  
+    width: 180px;
+  height: 45px;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  border-color: #0892d0;
+    
+}
+.From_To{
+  display: flex;
+  justify-content: space-between;
+}
+
+.from_date{
+  width: 180px;
+  height: 45px;
+  /* font-size: 22px; */
+  color: black;
+
+  border: 1px solid;
+  border-radius: 5px;
+
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+
+
+}
+
+.to_date{
+
+  width: 180px;
+  height: 45px;
+  font-size: 22px;
+  color: black;
+
+  border: 1px solid;
+  border-radius: 5px;
+
+  font-family: 'Roboto', sans-serif;
+  text-align: center;  
+  margin-left: 10%;
+}
+.from_text{
+  margin-top: 1.5%;
+  margin-right:4% ;
+}
+
+.to_text{
+  margin-top: 1.5%;
+  margin-left: 5%;
+
+}

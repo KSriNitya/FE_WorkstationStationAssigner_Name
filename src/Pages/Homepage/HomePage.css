@@ -1,0 +1,173 @@
+
+.buttoncontainer{
+  background: #fbfbfb;
+border-radius: 8px;
+box-shadow: 1px 2px 8px rgba(151, 170, 255, 0.65);
+height: 400px;
+margin: 6rem auto 8.1rem auto;
+width: 329px;
+position:absolute;
+top:10%;
+left:38%;
+}
+
+.main_message{
+  position:absolute;
+left:49%;
+top:33%;
+transform:translate(-50%,-45%);
+font-family: 'Gothic A1', sans-serif;
+  font-weight: 600;
+
+
+}
+.welcome_image{
+  position:absolute;
+left:49%;
+top:58%;
+transform:translate(-50%,-45%);
+}
+
+.icon{
+/* margin-left: 15%; */
+position: absolute;
+right: 4%;
+margin-top: 1.5%;
+
+}
+
+
+.button_display_hr{
+  margin-top: auto;
+  display:grid;
+  grid-gap: 40px;
+  justify-content: space-around;
+  position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%,-45%);
+/* justify-content:center;  */
+  
+}
+
+.button{
+  width:400px;
+  height:75px;
+  /* box-shadow: 0 0 20px rgba(46, 158, 223, 0.15); */
+  border-color: #0892d0;
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  font-family: 'Gothic A1', sans-serif;
+}
+.button:hover{
+  /* opacity:0.8; */
+  transform: scale(0.98);
+}
+
+.button_hr{
+  width:400px;
+  height:65px;
+  /* box-shadow: 0 0 20px rgba(46, 158, 223, 0.15); */
+  border-color: #0892d0;
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+}
+.button_hr:hover{
+  /* opacity:0.8; */
+  transform: scale(0.98);
+}
+
+.button_display_emp{
+  margin-top: auto;
+  display:grid;
+  grid-gap: 60px;
+  justify-content: space-around;
+  position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%,-45%);
+justify-content:space-between; 
+  
+}
+.logout{
+  width: 100px;
+  height:50px;
+  border-radius: 5px;
+  background-color: #D10000;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  
+
+}
+.logbp{
+
+  position: absolute;
+  top: 10%;
+  padding-left: 90%;
+}
+
+.loading_pos{
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+  width: auto;
+  height:auto;
+  justify-content: center;
+  /* background-color: blue; */
+  justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.box_header_new{
+
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 600;  
+ /* background-color:black; */
+ color: #0892d0;
+}
+
+.upcoming_events{
+  position: absolute;
+  top: 90%;
+}
+
+.upcoming_header{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 25px;
+  color: #0892d0;
+  text-align: center;
+  font-weight: 600;  
+
+  margin-top: 4%;
+
+}
+
+.upcoming_body{
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  font-weight: 400;  
+
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.error_image
+{
+  margin-top: 10%;
+  margin-left: 36%;
+  height: 300px;
+}

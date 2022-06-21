@@ -1,0 +1,59 @@
+.main_box{
+    margin-top: 12%;
+    display: flex ;
+    justify-content: space-evenly;
+}
+.upload_box{
+   
+    
+    margin-top: -20%;
+    margin-left: 64%;
+    /* margin-top: 6%; */
+    font-size: 20px;
+    font-family:'Gothic A1';
+    font-weight:600;    
+}
+
+.excel_image{
+filter:grayscale(100);
+margin-right: 45%;
+
+}
+.excel_image:hover{
+    filter:grayscale(0)
+}
+
+.upload_button{
+    display:flex;
+    margin-left: 13%;
+    margin-top: 8%;
+    border: 1px solid;
+    border-radius: 2px;
+    /* background-color: #22adf3; */
+    color: white;
+    padding: 10px 10px;
+    font-family:'Gothic A1';
+    font-weight:600;    
+}
+.upload_button:hover{
+    /* opacity:0.8; */
+    transform: scale(0.98);
+    /* background-color: #6ac4f1; */
+    
+}
+
+.download_format{
+   margin-top: 2%;
+   margin-left: 23%;
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: #22adf3;
+    color: white;
+    padding: 10px 10px;
+    font-family:'Gothic A1';
+    font-weight:600;}
+.download_format:hover{
+    transform: scale(0.98);
+    background-color: #6ac4f1;
+
+}

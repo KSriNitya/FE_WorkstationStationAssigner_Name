@@ -1,0 +1,131 @@
+.disable_button_container{
+  /* margin-top: auto;
+display:grid;
+grid-gap: 65px;
+justify-content: space-around;
+position:absolute;
+left:80%;
+top:50%;
+transform:translate(-50%,-45%);
+justify-content:center;  */
+/* margin-right: 1%; */
+padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons_floor_container_ed{
+  display: flex ;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: center;
+  padding-left: 10% ;
+  padding-right: 10%; 
+}
+
+.disable_button_floor{
+  font-family:'Gothic A1';
+
+        border-radius: 10px;
+        border: none;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); */
+        cursor: pointer;
+        font-size: 19px;
+        font-family:'Gothic A1';
+        font-weight:600;
+
+        /* padding: 15px 30px; */
+        /* background-color:#B31B1B; */
+        color:white;
+        width: 160px;
+        height: 60px;
+        margin-bottom: 2%;
+}
+
+.disable_button_floor:hover{
+  /* opacity:1; */
+    transform: scale(0.98);
+}
+
+.button_floor_ed{
+  /* width:450px;
+  height:65px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+    background-color: white;
+  border-radius: 50px;
+  /* background: white; */
+  /* background: blue; */
+  /* color: black; */ 
+  width: 230px;
+    height: 350px;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    /* box-shadow: 0 0 20px rgba(46, 158, 223, 0.15); */
+    border-color: #0892d0;
+    cursor: pointer;
+    font-size: 25px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    font-family:'Gothic A1';
+    font-weight:600;
+}
+.button_floor_ed:hover{
+  /* opacity:0.8; */
+    transform: scale(0.98);
+}
+
+.button_floor_ed_disable{
+  /* width:450px;
+  height:65px;
+  background-color: grey;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+
+  border-radius: 50px;
+  /* background: white; */
+  /* background: blue; */
+  /* color: black; */ 
+  font-family:'Gothic A1';
+  font-weight:400;
+      background-color: grey;
+              
+width: 230px;
+height: 350px;
+margin-top: 2%;
+margin-bottom: 3%;
+border-radius: 10px;
+/* box-shadow: 0 0 20px rgba(46, 158, 223, 0.15); */
+
+cursor: pointer;
+font-size: 25px;
+font-weight: 500;
+            /* background-color: rgba(231, 249, 255, 0.842); */
+            display: flex;
+            flex-direction: column;
+              align-items: center;
+              justify-content: space-around;
+}
+.button_floor_ed_disable:hover{
+  /* opacity:0.8; */
+    transform: scale(0.98);
+    cursor: not-allowed;
+}
+.disable_for{
+  font-family:'Gothic A1';
+  font-weight:400;
+
+
+}

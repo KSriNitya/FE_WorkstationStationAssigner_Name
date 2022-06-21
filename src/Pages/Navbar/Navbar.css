@@ -1,0 +1,60 @@
+.navbar-main{
+    width: 100%;
+    height:80px;
+    display: grid;
+    grid-template-columns:  1fr 2fr 1fr;
+    /* background-color: blue; */
+    box-shadow: rgba(137, 137, 236, 0.1) 0px 4px 16px, rgba(152, 152, 233, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.nav-logo{
+   
+    grid-column: 1/2;
+    justify-content: start;
+    align-items: center;
+    display: grid;
+    margin-left: 17%;
+
+}
+
+.nav-name{
+    grid-column: 2/3;
+
+}
+.nav-name h1{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gothic A1', sans-serif;
+font-weight: 600;
+    color:#0892d0;
+    font-size: 35px;
+    margin-left: 8%;
+
+}
+
+.nav-menu{
+    grid-column: 3/4;
+}
+
+.nav-menu button{
+    
+    /* display: flex;
+    justify-content: right;
+
+   margin-left: auto;
+   margin-right: auto;*/
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    margin-top: 4%; 
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color:#0892d0;
+    margin-left: 60%;
+}
+
+
+

@@ -1,0 +1,23 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white;
+    padding-bottom: 0.5%;
+  }
+  
+  .message{
+    font-family: 'Roboto', Source Sans Pro;
+  color:#0892d0;
+  /* color: black; */
+  font-size: 30px;
+  margin-top: auto;
+  /* font-weight: 1500; */
+  }
+  .box_header{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 22px;
+    color: white;
+    }
